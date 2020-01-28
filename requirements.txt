@@ -1,0 +1,4 @@
+tensorflow >= 2.0
+flask
+Pillow # for client test
+requests # for client test
