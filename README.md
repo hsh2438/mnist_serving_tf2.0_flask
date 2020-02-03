@@ -13,7 +13,7 @@ python3 train.py
 ```
 
 ### serving using flask
-You should have docker to use this example.
+serving your model using flask
 ```
 python3 flask_server.py #if you want to execute at background: nohup python3 flask_server.py &
 ```
