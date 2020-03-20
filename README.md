@@ -19,7 +19,9 @@ python3 flask_server.py #if you want to execute at background: nohup python3 fla
 ```
 
 ### serving using flask with gunicorn
-gunicorn flash_server:app -w 4
+```
+gunicorn flask_server:app -w 4
+```
 
 ### test
 You can test rest api.
