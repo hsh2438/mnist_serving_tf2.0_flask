@@ -18,6 +18,9 @@ serving your model using flask
 python3 flask_server.py #if you want to execute at background: nohup python3 flask_server.py &
 ```
 
+### serving using flask with gunicorn
+gunicorn flash_server:app -w 4
+
 ### test
 You can test rest api.
 ```
