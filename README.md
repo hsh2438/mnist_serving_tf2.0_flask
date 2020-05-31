@@ -18,9 +18,17 @@ serving your model using flask
 python3 flask_server.py #if you want to execute at background: nohup python3 flask_server.py &
 ```
 
+### serving using flask with swagger
+serving your model using flask with swagger
+swagger page: 127.0.0.1:2431
+```
+python3 flask_server_swagger.py 
+```
+
 ### serving using flask with gunicorn
 ```
 gunicorn flask_server:app -b 0.0.0.0:2431 -w 4
+gunicorn flask_server_swagger:app -b 0.0.0.0:2431 -w 4
 ```
 
 ### test
